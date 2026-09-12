@@ -12,7 +12,7 @@ namespace ASSIGNMENT_04
         {
             Console.WriteLine(message);
         }
-        static void Main(string[] args)
+        static void Run(string[] args)
         {
             mydelegate obj = new mydelegate(display);
             obj("Hello! This is delegate.");
